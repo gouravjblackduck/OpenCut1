@@ -48,6 +48,7 @@ jobs:
         run: bun run build
 
       - name: Run tests
+        test: test1
         working-directory: apps/web
         run: echo "No tests implemented yet"
         continue-on-error: true
